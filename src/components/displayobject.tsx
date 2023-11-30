@@ -32,13 +32,13 @@ export default function Myapp() {
             </div>
             <>
                 <h1>{na.name}</h1>
-                <img
+                <Image
                     className="avatar"
                     src={na.ImageUrl}
                     alt={'photo of ' + na.name}
                     title={'photo of ' + na.name}
                     style={{ width: na.ImageSize, height: na.ImageSize }}
-                ></img>
+                />
             </>
         </>
     );

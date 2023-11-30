@@ -39,14 +39,7 @@ export default function Home() {
           priority
         />
       </div>
-      <div className="flex flex-row py-6">
-        <p className="py-5">
-          <Link href={"/Dashboard"} > Dashboard</Link>
-        </p>
-        <p className="py-5">
-          <Link href={"/setting"} > Setting</Link>
-        </p>
-      </div>
+      
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"

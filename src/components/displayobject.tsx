@@ -14,7 +14,7 @@ const user = {
 }
 
 const na = {
-    name: 'Harry',
+    name: "Harry",
     ImageUrl: "https://i.imgur.com/yXOvdOSs.jpg",
     ImageSize: 90
 }

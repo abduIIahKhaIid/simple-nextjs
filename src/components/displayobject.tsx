@@ -1,3 +1,4 @@
+import Image from 'next/image';
 function Mybutton() {
     return (
         <button>
@@ -34,7 +35,8 @@ export default function Myapp() {
                 <img
                     className="avatar"
                     src={na.ImageUrl}
-                    alt={na.name}
+                    alt={'photo of ' + na.name}
+                    title={'photo of ' + na.name}
                     style={{ width: na.ImageSize, height: na.ImageSize }}
                 ></img>
             </>

@@ -40,8 +40,12 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-row py-6">
-        <Link href={"/Dashboard"} className="py-5"> Dashboard</Link>
-        <Link href={"/setting"} className="py-5"> Setting</Link>
+        <p className="py-5">
+          <Link href={"/Dashboard"} > Dashboard</Link>
+        </p>
+        <p className="py-5">
+          <Link href={"/setting"} > Setting</Link>
+        </p>
       </div>
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a

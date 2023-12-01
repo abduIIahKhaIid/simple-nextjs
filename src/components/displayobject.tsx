@@ -26,7 +26,7 @@ export default function Myapp() {
             <div className="flex-1  px-3 py-5 bg-red-700 ">
                 <h1>This is the button of</h1>
                 <Mybutton />
-                <h2>My first name is {user.first}</h2>
+                <h2 className="text-red-400">My first name is {user.first}</h2>
                 <h2>My last name is {user.last}</h2>
                 <h2>My age is {user.age}</h2>
             </div>
@@ -37,7 +37,8 @@ export default function Myapp() {
                     src={na.ImageUrl}
                     alt={'photo of ' + na.name}
                     title={'photo of ' + na.name}
-                    style={{ width: na.ImageSize, height: na.ImageSize }}
+                    width={na.ImageSize}
+                    height={na.ImageSize}
                 />
             </>
         </>
